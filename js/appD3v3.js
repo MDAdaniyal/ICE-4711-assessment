@@ -151,3 +151,4 @@ addAxisTicks("y", yTicks, yScale, chartHeight, (-chartWidth / 2 - 0.075) + " 0 "
 var zScale = d3.scale.linear().domain([0, Math.ceil(dataset.length / gridMax) - 1]).range([0, chartDepth]).nice();
 var zTicks = d3.range(Math.ceil(dataset.length / gridMax));
 addAxisTicks("z", zTicks, zScale, chartDepth, (chartWidth / 2 + 0.05) + " " + (-chartHeight / 2 - 0.075) + " 0", "0 90 0");
+
